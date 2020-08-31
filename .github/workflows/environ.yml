@@ -11,4 +11,4 @@ jobs:
     - name: REF as var
       run:|
       echo "REF=$REF"
-      echo "REF= ${{ github.ref }}"
+      echo "REF=${{ github.ref }}"
