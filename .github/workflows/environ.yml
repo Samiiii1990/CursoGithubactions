@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: REF as var
-      run:|
+      run: |
       echo "REF=$REF"
       echo "REF=${{ github.ref }}"
